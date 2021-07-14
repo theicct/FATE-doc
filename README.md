@@ -27,7 +27,7 @@
       - Run the _copy_doc.sh_ bash script
 6. (Optional) Test your changes locally
    - First, temporarily remove all references to the `FATE-doc/` directory (it becomes the baseurl once served by GitHub) from the Markdown documentation file and the _config.yml file
-   - run `jekyll serve`
+   - run `jekyll serve` (if that fails, try `bundle exec jekyll serve`)
    - Make sure you add back in the references to `FATE-doc/`
 7. Add and commit the new documentation files
    - `git add versions/vX.Y.md versions/FATE vX.Y Model Documentation.pdf`

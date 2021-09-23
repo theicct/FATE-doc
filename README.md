@@ -6,9 +6,12 @@
    - `git clone https://github.com/theicct/fate-doc.git`
    - This is a _public_ repository – do not commit any code or sensitive information!
 2. Make sure you have access to the latest version of the shared Word document
+
+## Dependencies
+1. [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+2. [pandoc](https://pandoc.org/index.html) version 2.10.0 - install with `conda install -c conda-forge pandoc=2.10.0`
 3. (Optional) Install a Markdown editor
 4. (Optional) Install [Jekyll](https://jekyllrb.com/) if you intend to test the documentation changes locally
-
 
 ## Updating the documentation
 
